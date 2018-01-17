@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bookmarking App</title>
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="fetchBookmarks()">
+  <div class="container">
+    <header>
+      <div class=" grey-text text-darken-2 ">
+        <h4>Bookmarking Application</h4> </div>
+    </header>
+    <hr />
+
+    <div class="  card grey lighten-3 hoverable center-align" id="content">
+      <h5>Bookmark Your Favourite Websites.</h5>
+      <form id="form" class="col s12">
+        <div class="input-field col s12">
+          <input type="text" id="websiteName" name="" value="">
+          <label for="websiteName">Enter Website Nam:</label>
+        </div>
+        <div class="input-field col s12">
+          <input type="text" id="websiteURL" name="" value="">
+          <label for="websiteURL">Enter Website URL</label>
+        </div>
+        <input type="submit" class="btn waves-effect waves-light" value="save">
+      </form>
+    </div>
+
+    <div id="boomarkTabs">
+
+    </div>
+    <footer>
+      <hr />
+      <p class="flow-text">
+        &copy; Akshat Dhabi
+      </p>
+    </footer>
+  </div>
+
+
+
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

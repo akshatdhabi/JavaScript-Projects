@@ -1,0 +1,25 @@
+#content {
+  height: auto;
+  padding: 5%;
+}
+
+#content h5 {
+  padding-bottom: 0%;
+}
+
+header {
+  margin-bottom: 15px;
+}
+
+header h4 {
+  font-size: 30px;
+}
+
+.purple {
+  padding: 10px;
+  font-weight: lighter;
+}
+
+.white-text h4 {
+  font-weight: lighter;
+}
